@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tasty Bites</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌮 Tasty Bites</h1>
+    <p><strong>Fresh • Delicious • Affordable</strong></p>
+  </header>
+
+  <section class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="buttons">
+      <button onclick="filterMenu('all')">All</button>
+      <button onclick="filterMenu('starters')">Starters</button>
+      <button onclick="filterMenu('main')">Main</button>
+      <button onclick="filterMenu('desserts')">Desserts</button>
+    </div>
+
+    <div class="menu-item starters">
+      <h3>🍕 Starters</h3>
+      <div class="item">
+        <span><strong>Garlic Bread</strong></span>
+        <span class="price">$4.99</span>
+      </div>
+      <p>Crispy bread with garlic and herbs</p>
+
+      <div class="item">
+        <span><strong>Bruschetta</strong></span>
+        <span class="price">$5.49</span>
+      </div>
+      <p>Grilled bread with tomato topping</p>
+    </div>
+
+    <div class="menu-item main">
+      <h3>🍝 Main Course</h3>
+      <div class="item">
+        <span><strong>Spaghetti Carbonara</strong></span>
+        <span class="price">$10.99</span>
+      </div>
+      <p>Classic creamy pasta with bacon</p>
+
+      <div class="item">
+        <span><strong>Margherita Pizza</strong></span>
+        <span class="price">$9.49</span>
+      </div>
+      <p>Cheese pizza with fresh basil</p>
+    </div>
+
+    <div class="menu-item desserts">
+      <h3>🍰 Desserts</h3>
+      <div class="item">
+        <span><strong>Tiramisu</strong></span>
+        <span class="price">$6.99</span>
+      </div>
+      <p>Layered dessert with coffee and cream</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
